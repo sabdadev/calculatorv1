@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+
+.calculator {
+    position: relative;
+    display: grid;
+}
+
+.calculator .value {
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 35px;
+    font-size: 18px;
+}
+
+.calculator span {
+    display: grid;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.calculator span:active {
+    background: #74ff4b;
+    color: #111;
+}
+
+.calculator span.angka:hover {
+    background: #74ff4b;
+    transition: 0.5s;
+}
+
+.calculator span.plus:hover {
+    background: blueviolet;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.calculator span.kurang:hover {
+    background: blueviolet;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.calculator span.kali:hover {
+    background: blueviolet;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.calculator span.bagi:hover {
+    background: blueviolet;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.calculator span.equal:hover {
+    opacity: 0.9;
+    background: #03b1ff;
+}
+
+.calculator span.clear:hover {
+    opacity: 0.9;
+    background: #ff3077;
+}
+
+.calculator span.clear {
+    grid-column: span 2;
+    width: 150px;
+    background: #ff3077;
+}
+
+.calculator span.plus {
+    grid-row: span 2;
+    height: 150px;
+}
+
+
+
+.calculator span.equal {
+    background: #03b1ff;
+}
+
+
+
